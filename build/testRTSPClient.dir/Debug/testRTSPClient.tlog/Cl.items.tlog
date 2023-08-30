@@ -1,0 +1,14 @@
+E:\nick\project\myRTSPClient\RTSPClient\FrameBuffer.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\FrameBuffer.obj
+E:\nick\project\myRTSPClient\RTSPClient\FrameSample.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\FrameSample.obj
+E:\nick\project\myRTSPClient\RTSPClient\D3DRender.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\D3DRender.obj
+E:\nick\project\myRTSPClient\RTSPClient\DummySink.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\DummySink.obj
+E:\nick\project\myRTSPClient\RTSPClient\DummyVideoSink.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\DummyVideoSink.obj
+E:\nick\project\myRTSPClient\RTSPClient\FFmpegDecoder.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\FFmpegDecoder.obj
+E:\nick\project\myRTSPClient\RTSPClient\IDecoder.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\IDecoder.obj
+E:\nick\project\myRTSPClient\RTSPClient\IRender.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\IRender.obj
+E:\nick\project\myRTSPClient\RTSPClient\RTSPClientWrapper.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\RTSPClientWrapper.obj
+E:\nick\project\myRTSPClient\RTSPClient\RenderFactory.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\RenderFactory.obj
+E:\nick\project\myRTSPClient\RTSPClient\StreamClientState.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\StreamClientState.obj
+E:\nick\project\myRTSPClient\RTSPClient\VideoDecoderFactory.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\VideoDecoderFactory.obj
+E:\nick\project\myRTSPClient\RTSPClient\main.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\main.obj
+E:\nick\project\myRTSPClient\RTSPClient\ourRTSPClient.cpp;E:\nick\project\myRTSPClient\build\testRTSPClient.dir\Debug\ourRTSPClient.obj

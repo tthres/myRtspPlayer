@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\nick\project\myRTSPClient\build\CMakeFiles\5f59f5a06539cdb442556e6a1d9275eb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\BasicUsageEnvironment</Filter>
+    </None>
+    <None Include="E:\nick\project\myRTSPClient\UsageEnvironment\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\UsageEnvironment</Filter>
+    </None>
+    <None Include="E:\nick\project\myRTSPClient\groupsock\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\groupsock</Filter>
+    </None>
+    <None Include="E:\nick\project\myRTSPClient\liveMedia\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\liveMedia</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9D5F2A67-6E6B-3569-89FF-8ED2EA44BC06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\BasicUsageEnvironment">
+      <UniqueIdentifier>{545F7F99-D371-338F-9818-5428748F6A7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\UsageEnvironment">
+      <UniqueIdentifier>{0771B9B9-4B80-3D94-8B56-EFD1E359F361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\groupsock">
+      <UniqueIdentifier>{BFADCBE1-B701-31F9-9E02-D8B208AA5120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\liveMedia">
+      <UniqueIdentifier>{DFFA7E66-5274-318A-9A21-C984889963F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

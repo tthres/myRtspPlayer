@@ -1,0 +1,10 @@
+^E:\NICK\PROJECT\MYRTSPCLIENT\BUILD\CMAKEFILES\5F59F5A06539CDB442556E6A1D9275EB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/nick/project/myRTSPClient/build/live555.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

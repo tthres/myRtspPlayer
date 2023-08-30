@@ -1,0 +1,10 @@
+^E:\NICK\PROJECT\MYRTSPCLIENT\BASICUSAGEENVIRONMENT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/BasicUsageEnvironment/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D827ED19-9917-3E25-B103-2FB9164E4450}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>liveMedia</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liveMedia.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liveMedia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liveMedia.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liveMedia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liveMedia.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liveMedia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liveMedia.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liveMedia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\nick\project\myRTSPClient\liveMedia\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AVIFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioInputDevice.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Base64.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BitVector.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMemoryBufferSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMultiFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DeviceSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DigestAuthentication.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\EBMLNumber.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFilter.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GSMAudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GenericMediaServer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H261VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HLSSegmenter.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HMAC_SHA1.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\InputFile.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Locale.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MIKEY.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADU.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUTranscoder.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUdescriptor.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUinterleaving.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3FileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Internals.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffman.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffmanTable.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3StreamState.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Transcoder.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2Demux.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedElementaryStream.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2FileServerDemux.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2IndexFromTransportStream.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamAccumulator.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemux.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromESSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromPESSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamIndexFile.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamMultiplexor.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PAT.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PMT.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_STREAM.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamFramer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaDemuxedTrack.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFile.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerDemux.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Media.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggDemuxedTrack.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFile.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerDemux.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OnDemandServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OutputFile.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\PassiveServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ProxyServerMediaSession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QCELPAudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeFileSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeGenericRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTCP.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPInterface.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPClient.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPCommon.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPRegisterSender.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServer.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServerRegister.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SIPClient.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SRTPCryptographicContext.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ServerMediaSession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamParser.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamReplicator.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\T140TextRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TLSState.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TextRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VideoRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSink.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileSource.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ourMD5.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\uLawAudioFilter.cpp" />
+    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\rtcp_from_spec.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\nick\project\myRTSPClient\build\ZERO_CHECK.vcxproj">
+      <Project>{7F9966E8-8B4F-31CA-A515-2554DEEA9594}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

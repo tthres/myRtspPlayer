@@ -1,0 +1,7 @@
+E:/nick/project/myRTSPClient/build/CMakeFiles/testRTSPClient.dir
+E:/nick/project/myRTSPClient/build/CMakeFiles/ALL_BUILD.dir
+E:/nick/project/myRTSPClient/build/CMakeFiles/ZERO_CHECK.dir
+E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/groupsock.dir
+E:/nick/project/myRTSPClient/build/BasicUsageEnvironment/CMakeFiles/BasicUsageEnvironment.dir
+E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/UsageEnvironment.dir
+E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/liveMedia.dir

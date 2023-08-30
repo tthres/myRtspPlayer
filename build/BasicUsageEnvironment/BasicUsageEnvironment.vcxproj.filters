@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\BasicHashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\BasicTaskScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\DelayQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\nick\project\myRTSPClient\BasicUsageEnvironment\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{179E1291-3574-3ABC-800C-13B2552EC53C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
