@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D827ED19-9917-3E25-B103-2FB9164E4450}</ProjectGuid>
+    <ProjectGuid>{3EEF8602-F129-3F9A-A3C5-B7141D0AC2ED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
     <ProjectName>liveMedia</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,46 +59,49 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liveMedia.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liveMedia</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liveMedia.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liveMedia</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liveMedia.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liveMedia</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liveMedia.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liveMedia</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,27 +114,31 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,27 +151,31 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,26 +188,30 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS=1;NO_OPENSSL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\liveMedia\.;E:\nick\project\myRTSPClient\liveMedia\include;E:\nick\project\myRTSPClient\liveMedia\..\UsageEnvironment\include;E:\nick\project\myRTSPClient\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\liveMedia\.;C:\zhangkz\code\myRtspPlayer\liveMedia\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\liveMedia\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +223,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\nick\project\myRTSPClient\liveMedia\CMakeLists.txt">
+    <CustomBuild Include="C:\zhangkz\code\myRtspPlayer\liveMedia\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/liveMedia/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/liveMedia/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +236,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/liveMedia/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/liveMedia/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +249,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/liveMedia/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/liveMedia/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +262,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/liveMedia/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/liveMedia/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/liveMedia/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,196 +275,196 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\liveMedia\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AVIFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioInputDevice.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Base64.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BitVector.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMemoryBufferSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMultiFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DeviceSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DigestAuthentication.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\EBMLNumber.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFilter.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GSMAudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GenericMediaServer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H261VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HLSSegmenter.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HMAC_SHA1.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\InputFile.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Locale.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MIKEY.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADU.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUTranscoder.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUdescriptor.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUinterleaving.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3FileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Internals.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffman.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffmanTable.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3StreamState.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Transcoder.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2Demux.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedElementaryStream.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2FileServerDemux.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2IndexFromTransportStream.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamAccumulator.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemux.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromESSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromPESSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamIndexFile.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamMultiplexor.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PAT.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PMT.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_STREAM.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamFramer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaDemuxedTrack.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFile.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerDemux.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Media.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggDemuxedTrack.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFile.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerDemux.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OnDemandServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OutputFile.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\PassiveServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ProxyServerMediaSession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QCELPAudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeFileSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeGenericRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTCP.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPInterface.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPClient.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPCommon.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPRegisterSender.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServer.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServerRegister.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SIPClient.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SRTPCryptographicContext.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ServerMediaSession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamParser.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamReplicator.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\T140TextRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TLSState.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TextRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VideoRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSink.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileServerMediaSubsession.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileSource.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ourMD5.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\uLawAudioFilter.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\rtcp_from_spec.c" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AVIFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AudioInputDevice.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Base64.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BasicUDPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BasicUDPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BitVector.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamMemoryBufferSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamMultiFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DeviceSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DigestAuthentication.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\EBMLNumber.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedFilter.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\GSMAudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\GenericMediaServer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H261VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoStreamParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\HLSSegmenter.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\HMAC_SHA1.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\InputFile.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEG2000VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEG2000VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Locale.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MIKEY.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADU.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADURTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADURTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUTranscoder.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUdescriptor.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUinterleaving.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3AudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3FileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3Internals.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3InternalsHuffman.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3InternalsHuffmanTable.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3StreamState.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3Transcoder.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2Demux.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2DemuxedElementaryStream.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2FileServerDemux.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2IndexFromTransportStream.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamAccumulator.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamDemux.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFromESSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFromPESSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamIndexFile.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamMultiplexor.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_PAT.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_PMT.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_STREAM.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4ESVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4ESVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4GenericRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4GenericRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4LATMAudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4LATMAudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEGVideoStreamFramer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEGVideoStreamParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaDemuxedTrack.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFile.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileServerDemux.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Media.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MultiFramedRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MultiFramedRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggDemuxedTrack.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFile.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileServerDemux.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OnDemandServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OutputFile.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\PassiveServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ProxyServerMediaSession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QCELPAudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QuickTimeFileSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QuickTimeGenericRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTCP.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPInterface.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPClient.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPCommon.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPRegisterSender.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPServer.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPServerRegister.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RawVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RawVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SIPClient.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SRTPCryptographicContext.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ServerMediaSession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SimpleRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SimpleRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\StreamParser.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\StreamReplicator.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\T140TextRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TLSState.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TextRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TheoraVideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TheoraVideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP8VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP8VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP9VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP9VideoRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VideoRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VorbisAudioRTPSink.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VorbisAudioRTPSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\WAVAudioFileServerMediaSubsession.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\WAVAudioFileSource.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ourMD5.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\uLawAudioFilter.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\rtcp_from_spec.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\nick\project\myRTSPClient\build\ZERO_CHECK.vcxproj">
-      <Project>{7F9966E8-8B4F-31CA-A515-2554DEEA9594}</Project>
+    <ProjectReference Include="C:\zhangkz\code\myRtspPlayer\build\ZERO_CHECK.vcxproj">
+      <Project>{62F2ECC7-CB91-30BF-8BD6-C957C65B3738}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

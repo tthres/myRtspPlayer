@@ -1,556 +1,556 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AC3AudioStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AC3AudioStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ADTSAudioStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ADTSAudioStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AMRAudioSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AMRAudioSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AVIFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AVIFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioInputDevice.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AudioInputDevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\AudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\AudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Base64.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Base64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BasicUDPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BasicUDPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BasicUDPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\BitVector.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\BitVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMemoryBufferSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamMemoryBufferSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ByteStreamMultiFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ByteStreamMultiFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DVVideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DVVideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DeviceSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DeviceSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\DigestAuthentication.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\DigestAuthentication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\EBMLNumber.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\EBMLNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedFilter.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\FramedSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\FramedSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GSMAudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\GSMAudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\GenericMediaServer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\GenericMediaServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H261VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H261VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H263plusVideoStreamParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H263plusVideoStreamParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264VideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264VideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H264or5VideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H264or5VideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\H265VideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\H265VideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HLSSegmenter.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\HLSSegmenter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\HMAC_SHA1.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\HMAC_SHA1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\InputFile.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\InputFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEG2000VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEG2000VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEG2000VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\JPEGVideoSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\JPEGVideoSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Locale.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Locale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MIKEY.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MIKEY.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADU.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADU.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADURTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADURTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADURTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUTranscoder.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUTranscoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUdescriptor.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUdescriptor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3ADUinterleaving.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3ADUinterleaving.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3FileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3FileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Internals.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3Internals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffman.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3InternalsHuffman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3InternalsHuffmanTable.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3InternalsHuffmanTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3StreamState.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3StreamState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MP3Transcoder.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MP3Transcoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2AudioStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2Demux.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2Demux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2FileServerDemux.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2FileServerDemux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG1or2VideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2IndexFromTransportStream.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2IndexFromTransportStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamAccumulator.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamAccumulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemux.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamDemux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamDemuxedTrack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFromESSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamIndexFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PAT.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_PAT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_PMT.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_PMT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamParser_STREAM.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamParser_STREAM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4ESVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4ESVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4ESVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4GenericRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4GenericRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4GenericRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4LATMAudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4LATMAudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEG4VideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEG4VideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamFramer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEGVideoStreamFramer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MPEGVideoStreamParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MPEGVideoStreamParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaDemuxedTrack.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaDemuxedTrack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFile.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerDemux.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileServerDemux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MatroskaFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\Media.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\Media.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MediaSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MediaSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MultiFramedRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\MultiFramedRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\MultiFramedRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggDemuxedTrack.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggDemuxedTrack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFile.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerDemux.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileServerDemux.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OggFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OggFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OnDemandServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OnDemandServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\OutputFile.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\OutputFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\PassiveServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\PassiveServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ProxyServerMediaSession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ProxyServerMediaSession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QCELPAudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QCELPAudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeFileSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QuickTimeFileSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\QuickTimeGenericRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\QuickTimeGenericRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTCP.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPInterface.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPClient.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPCommon.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPCommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPRegisterSender.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPRegisterSender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServer.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RTSPServerRegister.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RTSPServerRegister.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RawVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\RawVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\RawVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SIPClient.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SIPClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SRTPCryptographicContext.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SRTPCryptographicContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ServerMediaSession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ServerMediaSession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SimpleRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\SimpleRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\SimpleRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamParser.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\StreamParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\StreamReplicator.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\StreamReplicator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\T140TextRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\T140TextRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TLSState.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TLSState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TextRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TextRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TheoraVideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\TheoraVideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\TheoraVideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP8VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP8VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP8VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP9VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VP9VideoRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VP9VideoRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VideoRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VideoRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSink.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VorbisAudioRTPSink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\VorbisAudioRTPSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\VorbisAudioRTPSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\WAVAudioFileSource.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\WAVAudioFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\ourMD5.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\ourMD5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\uLawAudioFilter.cpp">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\uLawAudioFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\nick\project\myRTSPClient\liveMedia\rtcp_from_spec.c">
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\liveMedia\rtcp_from_spec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\nick\project\myRTSPClient\liveMedia\CMakeLists.txt" />
+    <CustomBuild Include="C:\zhangkz\code\myRtspPlayer\liveMedia\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{179E1291-3574-3ABC-800C-13B2552EC53C}</UniqueIdentifier>
+      <UniqueIdentifier>{0FBA194D-1764-3FEC-B5CC-48093E6340D1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
