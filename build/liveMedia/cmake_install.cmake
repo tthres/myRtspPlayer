@@ -1,4 +1,4 @@
-# Install script for directory: E:/nick/project/myRTSPClient/liveMedia
+# Install script for directory: C:/zhangkz/code/myRtspPlayer/liveMedia
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

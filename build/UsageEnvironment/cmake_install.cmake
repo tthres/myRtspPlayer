@@ -1,4 +1,4 @@
-# Install script for directory: E:/nick/project/myRTSPClient/UsageEnvironment
+# Install script for directory: C:/zhangkz/code/myRtspPlayer/UsageEnvironment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

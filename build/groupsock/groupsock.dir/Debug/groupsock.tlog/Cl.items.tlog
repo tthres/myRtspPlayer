@@ -1,7 +1,7 @@
-E:\nick\project\myRTSPClient\groupsock\GroupEId.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\GroupEId.obj
-E:\nick\project\myRTSPClient\groupsock\Groupsock.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\Groupsock.obj
-E:\nick\project\myRTSPClient\groupsock\GroupsockHelper.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\GroupsockHelper.obj
-E:\nick\project\myRTSPClient\groupsock\IOHandlers.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\IOHandlers.obj
-E:\nick\project\myRTSPClient\groupsock\NetAddress.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\NetAddress.obj
-E:\nick\project\myRTSPClient\groupsock\NetInterface.cpp;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\NetInterface.obj
-E:\nick\project\myRTSPClient\groupsock\inet.c;E:\nick\project\myRTSPClient\build\groupsock\groupsock.dir\Debug\inet.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\GroupEId.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\GroupEId.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\Groupsock.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\Groupsock.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\GroupsockHelper.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\GroupsockHelper.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\IOHandlers.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\IOHandlers.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\NetAddress.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\NetAddress.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\NetInterface.cpp;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\NetInterface.obj
+C:\zhangkz\code\myRtspPlayer\groupsock\inet.c;C:\zhangkz\code\myRtspPlayer\build\groupsock\groupsock.dir\Debug\inet.obj

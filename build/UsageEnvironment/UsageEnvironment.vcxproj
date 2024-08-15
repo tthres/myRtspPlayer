@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{120FBB3E-8D4E-33C9-B7EF-60EE5AA932D4}</ProjectGuid>
+    <ProjectGuid>{C9A9AC53-D1AA-3257-AD69-6B3AF003449F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
     <ProjectName>UsageEnvironment</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,47 +59,50 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UsageEnvironment.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UsageEnvironment</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UsageEnvironment.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UsageEnvironment</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">UsageEnvironment.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">UsageEnvironment</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">UsageEnvironment.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">UsageEnvironment</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -O</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,28 +115,32 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -O</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,28 +153,32 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -O</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,27 +191,31 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -O</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\UsageEnvironment\.;E:\nick\project\myRTSPClient\UsageEnvironment\include;E:\nick\project\myRTSPClient\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\UsageEnvironment\.;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\include;C:\zhangkz\code\myRtspPlayer\UsageEnvironment\..\groupsock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,11 +227,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\nick\project\myRTSPClient\UsageEnvironment\CMakeLists.txt">
+    <CustomBuild Include="C:\zhangkz\code\myRtspPlayer\UsageEnvironment\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/UsageEnvironment/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/UsageEnvironment/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/UsageEnvironment/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,11 +240,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/UsageEnvironment/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/UsageEnvironment/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/UsageEnvironment/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -238,11 +253,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/UsageEnvironment/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/UsageEnvironment/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/UsageEnvironment/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,11 +266,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/UsageEnvironment/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/UsageEnvironment/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/UsageEnvironment/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,18 +279,18 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\UsageEnvironment\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\nick\project\myRTSPClient\UsageEnvironment\HashTable.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\UsageEnvironment\UsageEnvironment.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\UsageEnvironment\strDup.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\UsageEnvironment\HashTable.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\UsageEnvironment\UsageEnvironment.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\UsageEnvironment\strDup.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\nick\project\myRTSPClient\build\ZERO_CHECK.vcxproj">
-      <Project>{7F9966E8-8B4F-31CA-A515-2554DEEA9594}</Project>
+    <ProjectReference Include="C:\zhangkz\code\myRtspPlayer\build\ZERO_CHECK.vcxproj">
+      <Project>{62F2ECC7-CB91-30BF-8BD6-C957C65B3738}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,7 +1,7 @@
-E:/nick/project/myRTSPClient/build/CMakeFiles/testRTSPClient.dir
-E:/nick/project/myRTSPClient/build/CMakeFiles/ALL_BUILD.dir
-E:/nick/project/myRTSPClient/build/CMakeFiles/ZERO_CHECK.dir
-E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/groupsock.dir
-E:/nick/project/myRTSPClient/build/BasicUsageEnvironment/CMakeFiles/BasicUsageEnvironment.dir
-E:/nick/project/myRTSPClient/build/UsageEnvironment/CMakeFiles/UsageEnvironment.dir
-E:/nick/project/myRTSPClient/build/liveMedia/CMakeFiles/liveMedia.dir
+C:/zhangkz/code/myRtspPlayer/build/CMakeFiles/testRTSPClient.dir
+C:/zhangkz/code/myRtspPlayer/build/CMakeFiles/ALL_BUILD.dir
+C:/zhangkz/code/myRtspPlayer/build/CMakeFiles/ZERO_CHECK.dir
+C:/zhangkz/code/myRtspPlayer/build/groupsock/CMakeFiles/groupsock.dir
+C:/zhangkz/code/myRtspPlayer/build/BasicUsageEnvironment/CMakeFiles/BasicUsageEnvironment.dir
+C:/zhangkz/code/myRtspPlayer/build/UsageEnvironment/CMakeFiles/UsageEnvironment.dir
+C:/zhangkz/code/myRtspPlayer/build/liveMedia/CMakeFiles/liveMedia.dir

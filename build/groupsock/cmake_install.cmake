@@ -1,4 +1,4 @@
-# Install script for directory: E:/nick/project/myRTSPClient/groupsock
+# Install script for directory: C:/zhangkz/code/myRtspPlayer/groupsock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

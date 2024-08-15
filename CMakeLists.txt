@@ -74,3 +74,16 @@ target_include_directories(testRTSPClient
         PUBLIC groupsock/include
         PUBLIC liveMedia/include
         PUBLIC BasicUsageEnvironment/include)
+
+set(FFMPEG_DLLS
+        ${FFMPEG_LIB_DIR}/avcodec-58.dll
+        ${FFMPEG_LIB_DIR}/swresample-3.dll
+        ${FFMPEG_LIB_DIR}/swscale-5.dll
+        ${FFMPEG_LIB_DIR}/avutil-56.dll)
+
+add_custom_command(TARGET testRTSPClient POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E make_directory $<TARGET_FILE_DIR:testRTSPClient>
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            ${FFMPEG_DLLS}
+            $<TARGET_FILE_DIR:testRTSPClient>
+        COMMENT "Copying FFmpeg DLLs to output directory")

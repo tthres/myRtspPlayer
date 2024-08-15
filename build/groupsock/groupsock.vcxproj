@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DFDB935D-1451-3C53-B2B0-AE5CAFB71B26}</ProjectGuid>
+    <ProjectGuid>{948BDC80-C84E-3210-B657-1A53D016C602}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
     <ProjectName>groupsock</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,46 +59,49 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\groupsock\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">groupsock.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">groupsock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\groupsock\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">groupsock.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">groupsock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\groupsock\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">groupsock.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">groupsock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\groupsock\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">groupsock.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">groupsock</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NO_GETIFADDRS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NO_GETIFADDRS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,27 +114,31 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,27 +151,31 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,26 +188,30 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_GETIFADDRS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\nick\project\myRTSPClient\groupsock\.;E:\nick\project\myRTSPClient\groupsock\include;E:\nick\project\myRTSPClient\groupsock\.\..;E:\nick\project\myRTSPClient\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\zhangkz\code\myRtspPlayer\groupsock\.;C:\zhangkz\code\myRtspPlayer\groupsock\include;C:\zhangkz\code\myRtspPlayer\groupsock\.\..;C:\zhangkz\code\myRtspPlayer\groupsock\..\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +223,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\nick\project\myRTSPClient\groupsock\CMakeLists.txt">
+    <CustomBuild Include="C:\zhangkz\code\myRtspPlayer\groupsock\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/groupsock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/groupsock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/groupsock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +236,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\nick\project\myRTSPClient\build\groupsock\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/groupsock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/groupsock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/groupsock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +249,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\nick\project\myRTSPClient\build\groupsock\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/groupsock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/groupsock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/groupsock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +262,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\nick\project\myRTSPClient\build\groupsock\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/nick/project/myRTSPClient/groupsock/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/zhangkz/code/myRtspPlayer/groupsock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/nick/project/myRTSPClient -BE:/nick/project/myRTSPClient/build --check-stamp-file E:/nick/project/myRTSPClient/build/groupsock/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/zhangkz/code/myRtspPlayer -BC:/zhangkz/code/myRtspPlayer/build --check-stamp-file C:/zhangkz/code/myRtspPlayer/build/groupsock/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,22 +275,22 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\nick\project\myRTSPClient\build\groupsock\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\zhangkz\code\myRtspPlayer\build\groupsock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\GroupEId.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\Groupsock.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\GroupsockHelper.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\IOHandlers.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\NetAddress.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\NetInterface.cpp" />
-    <ClCompile Include="E:\nick\project\myRTSPClient\groupsock\inet.c" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\GroupEId.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\Groupsock.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\GroupsockHelper.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\IOHandlers.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\NetAddress.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\NetInterface.cpp" />
+    <ClCompile Include="C:\zhangkz\code\myRtspPlayer\groupsock\inet.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\nick\project\myRTSPClient\build\ZERO_CHECK.vcxproj">
-      <Project>{7F9966E8-8B4F-31CA-A515-2554DEEA9594}</Project>
+    <ProjectReference Include="C:\zhangkz\code\myRtspPlayer\build\ZERO_CHECK.vcxproj">
+      <Project>{62F2ECC7-CB91-30BF-8BD6-C957C65B3738}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
